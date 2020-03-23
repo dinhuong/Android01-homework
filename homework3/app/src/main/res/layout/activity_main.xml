@@ -13,11 +13,14 @@
         android:layout_margin="@dimen/space_button"
         android:src="@drawable/ic_add_circle_black_24dp" />
     <ScrollView
+        android:id="@+id/scroll"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
         <LinearLayout
+            android:id="@+id/ll_linear_in_scroll"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
         </LinearLayout>
     </ScrollView>
 </LinearLayout>
